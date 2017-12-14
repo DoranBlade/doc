@@ -1,0 +1,36 @@
+{
+  "logo": {
+    "text": "悦保出单平台",
+    "type": "link",
+    "path": "index.html"
+  },
+  "main": [
+    {
+      "text": "项目介绍",
+      "type": "link",
+      "path": "issue/project/desc.html"
+    },
+    {
+      "text": "接口信息",
+      "type": "link",
+      "path": "issue/interface/channel.html",
+      "children": [
+        {
+          "text": "渠道信息",
+          "type": "link",
+          "path": "issue/interface/channel.html"
+        },
+        {
+          "text": "保险公司信息",
+          "type": "link",
+          "path": "issue/interface/insure-company.html"
+        },
+        {
+          "text": "险种编码信息",
+          "type": "link",
+          "path": "issue/interface/risk-code.html"
+        }
+      ]
+    }
+  ]
+}
